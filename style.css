@@ -6,6 +6,9 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+   background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 140%;
 }
 
 .container {
@@ -16,6 +19,22 @@ body {
   border-radius: 5px;
   line-height: 1.4;
   box-shadow: 2px 1px 5px 1px;
+  font-weight: bold; 
+font-size: 25px;
+text-align: center;
+}
+
+.center{
+  width: 320px;
+  margin: 25px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  line-height: 1.4;
+  box-shadow: 2px 1px 5px 1px;
+font-weight: bold; 
+font-size: 20px;
+text-align: center;
 }
 
 .title {
@@ -30,4 +49,5 @@ body {
   resize: none;
   padding: 10px;
   box-sizing: border-box;
+    font-size: 20px;
 }
